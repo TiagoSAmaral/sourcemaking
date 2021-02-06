@@ -22,6 +22,8 @@ Estes são dois tipos de agendadores de tarefas e dois tipos de sistemas operaci
 
 ## Discussão
 
+Decompor a interface e implementação dos componentes em uma hierarquia de classes ortogonal. A interface da classe contém um ponteiro para a implementação abstrata da classe. Esse ponteiro é inicializado com uma instância da implementação concreta da classe, mas todas as interações da interface da classe com a implementação é limitado pela abstração contida na implementação da classe base. O cliente interage com a interface da classe, e isso por sua vez "delega" todas as requisições para a implementação da classe.
+
 ## Estrutura
 
 ## Exemplo
